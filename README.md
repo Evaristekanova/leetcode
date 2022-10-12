@@ -16,6 +16,6 @@ This repository contains my solutions to [Leetcode](https://leetcode.com/essilfi
 
 ## Author
 
-[Benjamin Essilfie Quansah](https://github.com/shanecho)
+[Benjamin Essilfie Quansah](https://github.com/essilfiequansah)
 
 Connect with me on [LinkedIn](https://www.linkedin.com/in/benessilfie/) | [Twitter](https://twitter.com/essiIfie) | [Website](https://essilfie.dev)
