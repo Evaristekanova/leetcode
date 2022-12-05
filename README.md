@@ -10,6 +10,7 @@ This repository contains my solutions to [Leetcode](https://leetcode.com/essilfi
 | 2 | [Two Sum](https://leetcode.com/problems/two-sum/) | [ruby](./ruby/two_sum.rb) 🔹 [typescript](./typescript/twoSum.ts) | Easy |
 | 3 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [ruby](./ruby/product_of_array_except_self.rb) 🔹 [typescript](./typescript/productOfArrayExceptSelf.ts) | Medium |
 | 4 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [ruby](./ruby/maximum_subarray.rb) 🔹 [typescript](./typescript/maximumSubarray.ts) | Easy |
+| 5 | [Remove element](https://leetcode.com/problems/remove-element/) | [ruby](./ruby/remove_element.rb) 🔹 [typescript](./typescript/removeElement.ts) | Easy |
 
 ## Author
 
