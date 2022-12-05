@@ -2,13 +2,13 @@
 # @return {Boolean}
 
 def contains_duplicate(nums)
-    hashset = Set.new
+  hashset = Set.new
 
-    nums.each do |num|
-        return true if hashset.include?(num)
-        hashset.add(num)
-    end
-    false
+  nums.each do |num|
+    return true if hashset.include?(num)
+    hashset.add(num)
+  end
+  false
 end
 
 # Time Complexity: O(n)
