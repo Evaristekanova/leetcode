@@ -4,13 +4,11 @@
 def contains_duplicate(nums)
     hashset = Set.new
 
-    for num in nums
-        if hashset.include?(num)
-            return true
-        end
+    nums.each do |num|
+        return true if hashset.include?(num)
         hashset.add(num)
     end
-    return false
+    false
 end
 
 # Time Complexity: O(n)
