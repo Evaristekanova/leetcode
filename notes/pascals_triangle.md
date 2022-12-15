@@ -1,12 +1,12 @@
 # Pascal's Triangle
 
-This function creates a pattern of numbers. The method takes in a number called num_rows, which tells the method how many rows of numbers to create.
+This function creates a pattern of numbers. The method takes in a number called `num_rows`, which tells the method how many rows of numbers to create.
 
-First, the method checks if num_rows is zero or one. If it is, the method returns an empty list or a list with a single row of the number 1 in it. This is because the pattern only starts to appear when there are at least two rows.
+First, the method checks if `num_rows` is `zero` or `one`. If it is, the method returns an empty list or a list with a single row of the `number 1` in it. This is because the pattern only starts to appear when there are at least two rows.
 
-Next, the method creates a list called result that contains the first two rows of the pattern. These rows are just lists of the number 1.
+Next, the method creates a list called result that contains the first two rows of the pattern. These rows are just lists of the `number 1`.
 
-Then, the method enters a loop that will run for as many times as there are rows left to create, starting from the third row and going up to the num_rows row. In each iteration of the loop, the method creates a new row of numbers based on the previous row. To do this, the method starts the new row with the number 1, then adds the sum of each pair of numbers from the previous row, and finally adds the number 1 at the end of the row. The new row is then added to the result list.
+Then, the method enters a loop that will run for as many times as there are rows left to create, starting from the `third row` and going up to the `num_rows` row. In each iteration of the loop, the method creates a new row of numbers based on the previous row. To do this, the method starts the new row with the `number 1`, then adds the sum of each pair of numbers from the previous row, and finally adds the `number 1` at the end of the row. The new row is then added to the result list.
 
 After the loop has finished running, the method returns the result list, which now contains all of the rows of numbers that make up the pattern.
 
