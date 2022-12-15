@@ -2,13 +2,13 @@
 
 This function takes in two strings, `s` and `t`, and checks if they are `"isomorphic"` to each other.
 
-This means that the method looks at the two strings and tries to figure out if it is possible to replace each character in one string with a unique character from the other string such that the resulting strings are the same.
+This means that the method looks at the two strings and tries to figure out if it is possible to replace each character in one string with a `unique` character from the other string such that the resulting strings are the same.
 
-To do this, the method creates two hash maps, called letter_map and reverse_map. These hash maps will be used to store information about the characters in each string and how they are related to each other.
+To do this, the method creates two hash maps, called `letter_map` and `reverse_map`. These hash maps will be used to store information about the characters in each string and how they are related to each other.
 
-Next, the method looks at each character in s one by one. For each character in s, the method looks at the character in t that is in the same position, and checks if there is a way to map the character from s to the character from t such that the resulting strings are the same. If there isn't a way to do this, the method returns false because this means that the two input strings are not isomorphic to each other.
+Next, the method looks at each character in `s` one by one. For each character in `s`, the method looks at the character in `t` that is in the same position, and checks if there is a way to map the character from `s` to the character from `t` such that the resulting strings are the same. If there isn't a way to do this, the method returns `false` because this means that the two input strings are not `isomorphic` to each other.
 
-If there is a way to map the characters from s to the characters from t such that the resulting strings are the same, the method updates the hash maps with this information. After looking at all of the characters in s, the method returns true because this means that the two input strings are isomorphic to each other.
+If there is a way to map the characters from `s` to the characters from `t` such that the resulting strings are the same, the method updates the hash maps with this information. After looking at all of the characters in `s`, the method returns `true` because this means that the two input strings are `isomorphic` to each other.
 
 Here's an example of how this method would work:
 
