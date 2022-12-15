@@ -5,8 +5,6 @@
 # @return {Boolean}
 
 def is_isomorphic(s, t)
-  # approach: use two hash map to store map and
-  # reverse map while scanning both lists
 
   letter_map = {}
   reverse_map = {}
