@@ -27,9 +27,7 @@ end
 
 ## Explanation
 
-The solution is based on the [Maximum Subarray](./maximum_subarray.rb) solution. The only difference is that we need to keep track of the minimum product as well as the maximum product. This is because the minimum product can become the maximum product if the next number is negative.
-
-But stiil an explanation of the solution is as follows:
+The solution is based on the [Maximum Subarray](./maximum_subarray.md) solution. The only difference is that we need to keep track of the minimum product as well as the maximum product. This is because the minimum product can become the maximum product if the next number is negative.
 
 We initialize the minimum and maximum to 1. We do this because we want to multiply the numbers in the array. If we initialize the minimum and maximum to 0, then the first number in the array will always be the minimum and maximum product. We also initialize the best product to the first number in the array.
 
@@ -44,3 +42,17 @@ The time complexity is O(n) because we iterate through the array once.
 ## Space Complexity
 
 The space complexity is O(1) because we only use a few variables to keep track of the minimum, maximum, and best products.
+
+## Related Problems
+
+- [Maximum Subarray](./maximum_subarray.md)
+
+## Tags
+
+- Array
+- Dynamic Programming
+- Kadane's Algorithm
+
+## References
+
+- [LeetCode - Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
