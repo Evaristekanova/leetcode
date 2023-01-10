@@ -13,7 +13,7 @@ This repository contains my solutions to [Leetcode](https://leetcode.com/essilfi
 | 5 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [ruby](./ruby/maximum_product_subarray.rb) 🔹 [typescript](./typescript/maximumProductSubarray.ts) | Medium | [notes](./notes/maximum_product_subarray.md) |
 | 6 | [Remove element](https://leetcode.com/problems/remove-element/) | [ruby](./ruby/remove_element.rb) 🔹 [typescript](./typescript/removeElement.ts) | Easy |
 | 7 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | [ruby](./ruby/isomorphic_strings.rb) 🔹 [typescript](./typescript/isomorphicStrings.ts) | Easy | [notes](./notes/isomorphic_strings.md) |
-| 8 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [ruby](./ruby/pascals_triangle.rb)  | Easy | [notes](./notes/pascals_triangle.md) |
+| 8 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [ruby](./ruby/pascals_triangle.rb) 🔹 [typescript](./typescript/pascalsTriangle.ts) | Easy | [notes](./notes/pascals_triangle.md) |
 
 ## Author
 
