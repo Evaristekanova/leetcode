@@ -16,7 +16,6 @@ def merge(nums1, m, nums2, n)
 end
 
 
-
 # While Loop Approach
 # def merge(nums1, m, nums2, n)
 #     i = 0
@@ -29,7 +28,7 @@ end
 #         k += 1
 #     end
 
-    
+
 #     while j < n
 #         nums1[k] = nums2[j]
 #         j += 1
@@ -40,13 +39,11 @@ end
 # end
 
 
-
 # Spread Operator Approach
 # def merge(nums1, m, nums2, n)
 #     nums1[m, n] = *nums2
 #     nums1.sort!
 # end
-
 
 
 # Concatenate Approach
@@ -55,4 +52,3 @@ end
 #     nums1.sort!
 #     nums1.slice(0,n)
 # end
-
