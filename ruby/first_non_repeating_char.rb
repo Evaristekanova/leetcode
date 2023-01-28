@@ -1,12 +1,13 @@
 # frozen_string_literal: true
 
 def first_non_repeating_char(string)
-  char_count = string.each_char.tally
-  string.each_char { |c| return c if char_count[c] == 1 }
-  nil
+  tally = string.chars.tally
+  string.each_char { |c| return c if tally[c] == 1 }
+
+  'No non-repeating characters'
 end
 
-p first_non_repeating_char('') # => nil
 p first_non_repeating_char('swiss') # => 'w'
-p first_non_repeating_char('aabbcc') # => nil
-p first_non_repeating_char('lullaby') # => 'u'
+p first_non_repeating_char('apple') # => 'a'
+p first_non_repeating_char('') # => 'No non-repeating characters'
+p first_non_repeating_char('mama') # => 'No non-repeating characters'
