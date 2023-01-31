@@ -1,17 +1,17 @@
 # For Loop Approach
 def merge(nums1, m, nums2, n)
     k = 0
-    
+
     for i in 0...m
         nums1[k] = nums1[i]
         k += 1
     end
-    
+
     for j in 0...n
         nums1[k] = nums2[j]
         k += 1
     end
-    
+
     nums1.sort!
 end
 
@@ -34,7 +34,7 @@ end
 #         j += 1
 #         k += 1
 #     end
-    
+
 #     nums1.sort!
 # end
 
